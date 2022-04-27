@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Rowspan Table</title>
+  </head>
+  <body style="background-color:rgb(238, 153, 153)">
+    <table
+      frame="box"
+      rules="all"
+      style="
+        text-align: center;
+        margin: 20px;
+        color: rgb(153, 153, 211);
+        background-color: white;
+      "
+    >
+      <caption style="font-size: x-large; padding-bottom: 20px; color:purple">
+        <b> Rowspan Table </b>
+      </caption>
+      <tr>
+        <th>ID</th>
+        <th>NAME</th>
+        <th>CITY</th>
+        <th>COUNTRY</th>
+      </tr>
+      <tr>
+        <td>01</td>
+        <td>Priya</td>
+        <td>Newyork</td>
+        <td rowspan="3">Unites States</td>
+      </tr>
+      <tr>
+        <td>02</td>
+        <td>Brooklyn</td>
+        <td>Alice</td>
+      </tr>
+      <tr>
+        <td>03</td>
+        <td>Chaitra</td>
+        <td>California</td>
+      </tr>
+    </table>
+  </body>
+</html>
